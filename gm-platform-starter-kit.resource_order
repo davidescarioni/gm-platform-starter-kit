@@ -1,0 +1,21 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_player_falling","order":1,"path":"sprites/spr_player_falling/spr_player_falling.yy",},
+    {"name":"Sprite1","order":5,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"spr_player_jump","order":3,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+    {"name":"spr_player_idle","order":2,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
+    {"name":"spr_tileset2","order":2,"path":"sprites/spr_tileset2/spr_tileset2.yy",},
+    {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"ts_tileset2","order":3,"path":"tilesets/ts_tileset2/ts_tileset2.yy",},
+    {"name":"spr_player_walk","order":4,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
+    {"name":"Sprite3","order":6,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"obj_collision_slide","order":1,"path":"objects/obj_collision_slide/obj_collision_slide.yy",},
+    {"name":"spr_tileset1","order":1,"path":"sprites/spr_tileset1/spr_tileset1.yy",},
+  ],
+}

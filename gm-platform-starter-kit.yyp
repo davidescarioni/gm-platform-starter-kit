@@ -1,0 +1,49 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "gm-platform-starter-kit",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.8.2.106",
+  },
+  "resources": [
+    {"id":{"name":"spr_player_falling","path":"sprites/spr_player_falling/spr_player_falling.yy",},},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
+    {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
+    {"id":{"name":"spr_tileset2","path":"sprites/spr_tileset2/spr_tileset2.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"ts_tileset2","path":"tilesets/ts_tileset2/ts_tileset2.yy",},},
+    {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
+    {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
+    {"id":{"name":"ts_tileset1","path":"tilesets/ts_tileset1/ts_tileset1.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"obj_collision_slide","path":"objects/obj_collision_slide/obj_collision_slide.yy",},},
+    {"id":{"name":"spr_tileset1","path":"sprites/spr_tileset1/spr_tileset1.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
