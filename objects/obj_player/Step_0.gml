@@ -5,7 +5,14 @@ var _key_jump = keyboard_check(ord("Z"));
 var _key_jump_pressed = keyboard_check_pressed(ord("Z"));
 
 // Horizontal movement
-hsp = (_key_right - _key_left) * hsp_walk;
+var _move = _key_right - _key_left
+
+if (_move == 0) {
+	hsp = approach(hsp, 0, dec);
+} else {
+	hsp = approach(hsp, _move * hsp_walk, acc);
+}
+
 if (hsp !=0) dir = sign(hsp)
  
 // Vertical movement

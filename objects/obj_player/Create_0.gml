@@ -1,9 +1,11 @@
-grv = 0.2;
-hsp = 0;
-vsp = 0;
-dir = 1;
-hsp_walk = 3;
-vsp_jump = -4;
+grv = 0.2; // Gravity
+hsp = 0; // Horizontal Speed
+vsp = 0; // Vertical Speed
+dir = 1; // Facing direction (1 for right, -1 for left)
+hsp_walk = 3; // Walking speed
+acc = .5; // Horizontal acceleration
+dec = .23; // Horizontal deceleration
+vsp_jump = -4; // Jump speed
 can_jump = 0; 
 coyote_time = 10;
 jump_buffer = 50;
