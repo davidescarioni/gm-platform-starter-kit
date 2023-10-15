@@ -18,5 +18,6 @@
     {"name":"Sprite3","order":6,"path":"sprites/Sprite3/Sprite3.yy",},
     {"name":"obj_collision_slide","order":1,"path":"objects/obj_collision_slide/obj_collision_slide.yy",},
     {"name":"spr_tileset1","order":1,"path":"sprites/spr_tileset1/spr_tileset1.yy",},
+    {"name":"spr_slopes","order":7,"path":"sprites/spr_slopes/spr_slopes.yy",},
   ],
 }

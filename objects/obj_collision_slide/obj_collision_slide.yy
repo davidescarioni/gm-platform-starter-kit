@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
+    "name": "spr_slopes",
+    "path": "sprites/spr_slopes/spr_slopes.yy",
   },
   "spriteMaskId": null,
   "visible": true,
