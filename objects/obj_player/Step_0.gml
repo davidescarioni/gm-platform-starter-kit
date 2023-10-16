@@ -19,13 +19,13 @@ if (hsp !=0) dir = sign(hsp)
 vsp += grv;
 
 // Check if jump button is pressed
-if _key_jump_pressed can_jump = jump_buffer
+if _key_jump_pressed can_jump = jump_buffer else can_jump--;
 
 // Check if we are on ground
-if place_meeting(x,y+1,collision_objects) on_ground = coyote_time;
+if place_meeting(x,y+1,collision_objects) on_ground = coyote_time else on_ground--;
  
 // Check if we can jump
-if (can_jump-- > 0) && (on_ground-- > 0)
+if (can_jump > 0) && (on_ground > 0)
 {
     vsp = vsp_jump;
     can_jump = 0;
