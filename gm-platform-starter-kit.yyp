@@ -25,7 +25,7 @@
   },
   "resources": [
     {"id":{"name":"spr_player_falling","path":"sprites/spr_player_falling/spr_player_falling.yy",},},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_tileset2","path":"sprites/spr_tileset2/spr_tileset2.yy",},},
@@ -35,7 +35,7 @@
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
     {"id":{"name":"ts_tileset1","path":"tilesets/ts_tileset1/ts_tileset1.yy",},},
-    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"spr_collision_slide","path":"sprites/spr_collision_slide/spr_collision_slide.yy",},},
     {"id":{"name":"obj_collision_slide","path":"objects/obj_collision_slide/obj_collision_slide.yy",},},
     {"id":{"name":"spr_tileset1","path":"sprites/spr_tileset1/spr_tileset1.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},

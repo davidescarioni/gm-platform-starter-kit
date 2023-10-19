@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "spr_collision",
+    "path": "sprites/spr_collision/spr_collision.yy",
   },
   "spriteMaskId": null,
   "visible": false,

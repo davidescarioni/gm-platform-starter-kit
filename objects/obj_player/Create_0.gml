@@ -6,10 +6,15 @@ hsp_walk = 3; // Walking speed
 acc = .5; // Horizontal acceleration
 dec = .23; // Horizontal deceleration
 vsp_jump = -4; // Jump speed
-can_jump = 0; 
-coyote_time = 10;
-jump_buffer = 50;
+
+// Coyote Time
 on_ground = 0;
+coyote_time = 10;
+
+// Jump Buffer
+can_jump = 0;
+jump_buffer = 10;
+
 collision_objects = [obj_collision, obj_collision_slide]
 
 // Draw variables

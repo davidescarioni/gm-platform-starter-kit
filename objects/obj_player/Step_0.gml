@@ -35,17 +35,11 @@ if (can_jump > 0) && (on_ground > 0)
 	//yscale = 1.2
 }
  
- // Variable jump height
-//if !_key_jump and vsp < 0
-//vsp *= 0.5;
+// Variable jump height
+if (!_key_jump and vsp < 0) vsp *= 0.5;
 
 //Horizontal move & collide
 var _horizontal_collisions = move_and_collide(hsp, 0, collision_objects, abs(hsp))
- 
-// Walk on slides
-//if (on_ground) && (place_meeting(x,y + abs(hsp) + 1 ,collision_objects)) && (vsp >= 0) {   
-//    vsp += abs(hsp) + 1;
-//}
  
 //Vertical move & collide
 var _vertical_collisions = move_and_collide(0, vsp, collision_objects, abs(vsp)+1 , hsp, vsp, hsp, vsp)
