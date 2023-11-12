@@ -7,8 +7,8 @@ acc = .5; // Horizontal acceleration
 dec = .23; // Horizontal deceleration
 vsp_jump = -4; // Jump speed
 can_jump = 0; 
-coyote_time = 10;
-jump_buffer = 50;
+coyote_time = 5;
+jump_buffer = 5;
 on_ground = 0;
 collision_objects = [obj_collision, obj_collision_slide]
 
