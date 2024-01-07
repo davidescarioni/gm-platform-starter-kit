@@ -15,8 +15,6 @@ coyote_time = 10;
 can_jump = 0;
 jump_buffer = 10;
 
-collision_objects = [obj_collision, obj_collision_slide]
-
 // Draw variables
 xscale = 1;
 yscale = 1;
